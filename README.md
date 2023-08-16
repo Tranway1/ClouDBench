@@ -1,4 +1,4 @@
-# ReadMe - ClouDBench (Cloud Database Benchmark)
+# ClouDBench (Cloud Database Benchmark)
 
 The ClouDBench project is a collaborative initiative aimed at creating a more realistic analytical benchmark for cloud data warehouses. Traditional benchmarks such as TPC-H/DS often fail to present a realistic picture of the performance of cloud data warehouses, with each service typically showing optimal performance on its native cloud service. To address this, ClouDBench, spearheaded by [MIT DSG](https://dsg.csail.mit.edu/) in collaboration with Amazon, Intel, Meta, Microsoft, and Google, seeks to develop a benchmark that is more representative of real-world workloads.
 
