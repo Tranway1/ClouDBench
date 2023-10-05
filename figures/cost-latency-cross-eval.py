@@ -40,7 +40,7 @@ plt.plot(x_C, y_C, label="System C", color="green")
 # Labeling axes and adding a title
 plt.xlabel("$ Cost")
 plt.ylabel("Query Latency")
-plt.title("Query Latency vs. Dollar Cost (Dummy Data)")
+plt.title("Query Latency vs. Dollar Cost")
 
 # Add legend
 plt.legend()

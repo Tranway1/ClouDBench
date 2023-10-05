@@ -7,7 +7,7 @@ def import_data(file_name):
 
 def plot_data(df, plot_type):
     sns.set(style = "whitegrid")
-    plt.figure(figsize = (10, 6))
+    plt.figure(figsize = (5, 3))
 
     if plot_type == 'pdf':
         sns.kdeplot(df['Runtime'], bw_adjust=0.5, fill=True)
@@ -21,11 +21,11 @@ def plot_data(df, plot_type):
     plt.xlabel('Runtime')
     plt.ylabel('Density' if plot_type == 'pdf' else 'Cumulative')
 
-    plt.savefig('runtime_amazon_one_day.pdf')
+    plt.savefig('runtime_amazon_three_hours.pdf')
 
 
 def main():
-    file_name = '../benchmark/amazon/TPCDS_one_day_runtime.csv' # input your file name here
+    file_name = '../benchmark/amazon/TPCDS_three_hours_runtime.csv' # input your file name here
     df = import_data(file_name)
     plot_type = 'pdf' # choose either 'pdf' or 'cdf'
     plot_data(df, plot_type)
