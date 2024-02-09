@@ -347,7 +347,8 @@ create table store_returns
             references reason,
     sr_ticket_number      integer not null encode az64,
     sr_return_quantity    integer encode az64,
-    sr_return_amt         numeric(7, 2) encode az64,
+    sr_return_amt         
+    (7, 2) encode az64,
     sr_return_tax         numeric(7, 2) encode az64,
     sr_return_amt_inc_tax numeric(7, 2) encode az64,
     sr_fee                numeric(7, 2) encode az64,

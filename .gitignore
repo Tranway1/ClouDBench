@@ -1,1 +1,4 @@
 .idea/*
+figures/*
+.DS_Store
+benchmark/.DS_Store
