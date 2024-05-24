@@ -1,0 +1,1758 @@
+[
+  {
+    "Time": "2018-02-22 08:15:15",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:15:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:15:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:15:20",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:20",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:15:25",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:25",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:15:25",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:15:25",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:15:25",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:15:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:15:30",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:15:30",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:15:30",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:15:35",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:35",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:15:40",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:40",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:40",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:15:45",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:45",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:45",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:15:50",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:50",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:50",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:15:55",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:15:55",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:05",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:05",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:30",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:40",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:45",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:50",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:16:55",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:00",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:05",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:10",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:15",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:20",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:25",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:30",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:35",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:40",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:40",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:17:40",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:17:40",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:17:40",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:40",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:17:40",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:18:10",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:15",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:18:15",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:18:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:20",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:18:40",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:18:40",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:18:40",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:45",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:18:45",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:45",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:18:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:18:50",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:50",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:50",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:18:55",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:19:00",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:19:00",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:19:00",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:19:00",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:19:05",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:05",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:05",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:19:10",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:10",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:10",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:15",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:19:20",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:20",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:20",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:25",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:25",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:19:30",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:19:35",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:19:45",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:19:45",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:19:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:19:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:19:50",
+    "Query": "Explain Analyze SELECT * FROM tpch1g.nation, tpch1g.region WHERE n_regionkey = r_regionkey;"
+  },
+  {
+    "Time": "2018-02-22 08:19:55",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:20:00",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:10",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:10",
+    "Query": "Explain Analyze SELECT SUM(SIN(SIN(SIN(SIN(SIN(SIN(1))))))), SUM(COS(COS(COS(COS(COS(COS(1))))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:20:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:25",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:30",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:20:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:35",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:40",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))), COS(COS(COS(COS(COS(COS(1)))))), TAN(TAN(TAN(TAN(TAN(TAN(1)))))), ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(ASIN(1))))))), ACOS(ACOS(ACOS(ACOS(ACOS(ACOS(1)))))), ATAN(ATAN(ATAN(ATAN(ATAN(ATAN(1)))))) FROM tpch1g.lineitem l;"
+  },
+  {
+    "Time": "2018-02-22 08:20:40",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:45",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:45",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:20:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:21:00",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:21:00",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:21:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:21:05",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:21:10",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:21:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:21:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:21:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:24:15",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:25:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:25:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:25:50",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:25:50",
+    "Query": "Explain Analyze SELECT SIN(SIN(SIN(SIN(SIN(SIN(1)))))) AS i, COS(COS(COS(COS(COS(COS(1)))))) AS j FROM tpch1g.lineitem l ORDER BY i DESC;"
+  },
+  {
+    "Time": "2018-02-22 08:25:50",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:25:50",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:25:50",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:25:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:25:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:25:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:25:55",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:25:55",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:25:55",
+    "Query": "Explain Analyze SELECT p_name, p_brand, p_type, p_size FROM tpch1g.part p;"
+  },
+  {
+    "Time": "2018-02-22 08:26:00",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:27:25",
+    "Query": "Explain Analyze SELECT s_suppkey, s_name, s_address, s_phone FROM tpch1g.supplier WHERE s_suppkey > 1;"
+  },
+  {
+    "Time": "2018-02-22 08:27:35",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:28:20",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:28:25",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:28:30",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  },
+  {
+    "Time": "2018-02-22 08:28:35",
+    "Query": "Explain Analyze SELECT s_name, s_address, s_phone, SIN(SIN(SIN(SIN(SIN(SIN(s_suppkey)))))), COS(COS(COS(COS(COS(COS(s_suppkey)))))) FROM tpch1g.supplier s;"
+  }
+]
